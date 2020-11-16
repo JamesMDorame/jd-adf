@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "JMD-DATAFACTORY"
+		},
+		"ABLB_JMDblob_connectionString": {
+			"value": ""
+		},
+		"ADLS_JMDadls_accountKey": {
+			"value": ""
+		},
+		"ASQL_JMD_Entertaintment_connectionString": {
+			"value": ""
+		},
+		"SQL_4KFun_Entertainment_connectionString": {
+			"value": ""
+		},
+		"ADLS_JMDadls_properties_typeProperties_url": {
+			"value": "https://jmddfadls.dfs.core.windows.net"
+		},
+		"HTTP_Lego_properties_typeProperties_url": {
+			"value": "https://cdn.rebrickable.com/media/downloads/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
