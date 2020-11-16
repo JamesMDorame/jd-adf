@@ -1,0 +1,16 @@
+{
+	"name": "SQL_4KFun_Entertainment",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=localhost;initial catalog=Entertainment;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkODAzNTc4YS0zN2EyLTQyMmYtOWM4NS1hZTVmNzc0MGE5MmEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "James4kFunintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

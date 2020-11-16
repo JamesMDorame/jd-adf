@@ -1,0 +1,7 @@
+{
+	"name": "James4kFunintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-hosted integration runtime running on 4Kfun"
+	}
+}

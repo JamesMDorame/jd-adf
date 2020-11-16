@@ -1,0 +1,34 @@
+{
+	"name": "SQL_Lego_Themes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQL_4KFun_Entertainment",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "parent_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Load_Date",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "Lego",
+			"table": "themes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
